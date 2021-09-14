@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Speed Test</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Kim birinchi bo-rish-ga!</h1>
+        <form class="box">
+            <p class="box__desc">Masofa:</p>
+            <input class="input" type="number" value="">
+            <select name="select" class="select">
+                <option value="m" class="option">metr</option>
+                <option value="km" class="option">kilometr</option>
+            </select>
+            <button class="btn">Hisoblash</button>
+        </form>
+        <div class="blocks">
+            <div class="block on-foot">
+                <i class="fas fa-walking"></i>
+                <p class="block__desc">Piyoda</p>
+                <div class="result">
+                    <p class="foot__result result"></p>
+                </div>
+            </div>
+            <div class="block bicycle">
+                <i class="fas fa-bicycle"></i>
+                <p class="block__desc">Velosiped</p>
+                <div class="result">
+                    <p class="bicycle__result result"></p>
+                </div>
+            </div>
+            <div class="block car">
+                <i class="fas fa-car"></i>
+                <p class="block__desc">Mashina</p>
+                <div class="result">
+                    <p class="car__result result"></p>
+                </div>
+            </div>
+            <div class="block plane">
+                <i class="fas fa-plane"></i>
+                <p class="block__desc">Samalyot</p>
+                <div class="result">
+                    <p class="plane__result result"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
